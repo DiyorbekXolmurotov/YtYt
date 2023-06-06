@@ -1,0 +1,138 @@
+.section-seven{
+    // max-width: 1440px;
+    // height: 595px;
+    margin: 0 auto;
+    padding-top: 41px;
+    background-color: #F3F3F3;    
+    .contSeven_table{
+        width: 1160px;
+        height: 550px;
+        margin: 0 auto;
+        background: #FFFFFF;
+        border-radius: 30px;
+        .contSeven_table_title{
+            padding-top: 36px;
+            padding-bottom: 15px;
+            height: 20px;
+            width: 1057px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            .contSeven_table_title_item1{
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 25px;
+                width: 36px;
+                height: 25px;
+                color: #38BFF2;                
+            }
+            .contSeven_table_title_item2{
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 25px;
+                width: 105px;
+                height: 25px;
+                margin-left: 460px;
+                color: #38BFF2;                
+            }
+            .contSeven_table_title_item3{
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 25px;
+                width: 276px;
+                height: 25px;
+                margin-left: 180px;
+                color: #38BFF2;                
+            }
+        }  
+        .contSeven_table_cont{
+            width: 1081px;
+            height: 54px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            .contSeven_table_cont_title{
+                width: 372px;
+                height: 25px;
+                margin-left: 19px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+                color: #22253B;
+            }
+            .contSeven_table_cont_price{
+                width: 102px;
+                height: 25px;
+                margin-left: 127px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+                color: #22253B;                
+            }
+            .contSeven_table_cont_count{
+                width: max-content;
+                height: max-content;
+                margin-left: 183px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+                color: #22253B;                
+            }
+        }      
+        .contSeven_table_contUP{
+            background: #F3F3F3;
+            border-radius: 10px;            
+        }
+        .contSeven_table_itog{
+            width: 1035px;
+            height: 25px;
+            margin: 20px auto;
+            display: flex;
+            align-items: center;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 25px;
+            color: #22253B;
+            .contSeven_table_itog_item1{
+                width: max-content;
+                height: max-content;
+            }
+            .contSeven_table_itog_item2{
+                width: max-content;
+                height: max-content;
+                margin-left: 397px;
+            }
+            .contSeven_table_itog_item3{
+                width: max-content;
+                height: max-content;
+                margin-left: 220px;
+            }
+        }
+    }
+    .contSeven__text{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        width: 392px;
+        height: 25px;
+        margin: 25px 173px;
+        color: #8E8E8E;        
+    }
+}

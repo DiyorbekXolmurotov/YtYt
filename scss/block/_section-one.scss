@@ -1,0 +1,89 @@
+.header {
+    border-radius: 15px;
+    max-width: 1440px;
+    height: 600px;
+    background: #EAF2F5;
+    .contOne__wrapper {
+        width: 1151px;
+        height: 408px;
+        padding-top: 133px;
+        margin: 0 auto; 
+        display: flex;
+        justify-content: space-between;
+        .contOne_blk {
+            width: 638px;
+            height: 818px;
+            .contOne__title {
+                width: 638px;
+                height: 185px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 46px;
+                line-height: 46px;
+                color: #22253B;   
+                .contOne__title_span {
+                    color: #F15525;
+                }             
+            }
+            .contOne__hr {
+                margin-top: 31px;
+                width: 365px;
+                height: 0px;
+                border: 1px solid #DEDEDE;
+            }
+            .contOne__text {
+                margin-top: 15px;
+                width: 365px;
+                height: 46px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 23px;
+                color: #22253B;                
+            }
+            .contOne__btn{
+                cursor: pointer;
+                margin-top: 18px;
+                width: 321px;
+                height: 70px;
+                background: #F15525;
+                border: none;
+                border-radius: 82px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 96.69%;
+                color: #FFFFFF;
+                transition: 200ms;
+                .contOne__btn_img{
+                    margin-left: 10px;
+                }
+            }   .contOne__btn:hover{transition: 0.5s ease; background-color: #38BFF2;}
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .contOne__wrapper {
+        // display: none;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: none;
+    }
+
+    .header {
+        max-width: 1200px;
+        margin-bottom: 400px;
+    }
+
+    .header .container {
+        max-width: 400px;
+    }
+
+    .contOne__block_img {
+        display: flex;
+    }
+}

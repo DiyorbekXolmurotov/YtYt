@@ -1,0 +1,49 @@
+.section-six{
+    max-width: 1440px;
+    height: 235px;
+    margin: 0 auto;
+    background-color: #F3F3F3;
+    .contSix__title{
+        width: max-content;
+        height: max-content;
+        margin: 0 auto;
+        padding-top: 90px;
+        font-family: 'Gilroy SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 46px;
+        text-align: center;
+        color: #22253B;
+    }
+    .contSix__wrapper{
+        width: 1160px;
+        height: 63px;
+        padding-top: 35px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .contSix__block{
+            width: max-content;
+            height: 63px;
+            display: flex;
+            align-items: center;
+            .contSix__block_img{
+                width: max-content;
+                height: max-content;
+            }
+            .contSix__block_text{
+                width: max-content;
+                height: 63px;
+                margin-left: 29px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 21px;
+                color: #22253B;
+            }
+        }
+    }
+}

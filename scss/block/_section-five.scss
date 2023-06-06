@@ -1,0 +1,56 @@
+.section-five{
+    max-width: 1160px;
+    height: 633px;
+    margin: 90px auto;
+    margin-top: 60px;
+    .contFive__wrapper{
+        padding-top: 30px;
+        width: 1160px;
+        height: 290px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .contFive__block__img{
+            width: 401px;
+            height: 290px;
+            background: #EAF2F5;
+            border-radius: 40px;
+            .contFive__img{
+                width: max-content;
+                height: max-content;
+                margin-top: 20px;
+                margin-left: 65px;
+            }
+        }
+        .contFive__block__text{
+            width: 730px;
+            height: 290px;
+            background: #EAF2F5;
+            border-radius: 40px;
+            .contFive__block_title{
+                font-family: 'Gilroy SemiBold';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 30px;
+                width: max-content;
+                height: 37px;
+                padding-left: 100px;
+                color: #22253B;
+                padding-top: 54px;
+            }       
+            .contFive__block_content{
+                width: 550px;
+                height: max-content;
+                margin-top: 18px;
+                padding-left: 100px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 25px;
+                color: #22253B;                
+            }     
+        }
+    }   
+}

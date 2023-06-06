@@ -1,0 +1,183 @@
+.section-two{
+    max-width: 1160px;
+    height: max-content;
+    margin: 0 auto;
+    padding-top: 103px;
+    .contTwo__title{
+        width: 665px;
+        height: 46px;
+        font-family: 'Gilroy SemiBold';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 46px;
+        text-align: center;
+        color: #22253B;
+        margin: 0 auto;
+    }
+    .contTwo__wrapper{
+        margin: 0 auto;
+        margin-top: 35px;
+        width: 1160px;
+        height: 396px;
+        background: #EAF2F5;
+        border-radius: 48px;
+        display: flex;
+        justify-content: space-around;
+        .contTwo__wrapper_img{
+            width: 407px;
+            height: 353px;
+            padding-top: 42px;
+        }        
+        .contTwo__block{
+           width: 467px;
+           height: 353px;
+           .contTwo__block_text{
+                width: 467px;
+                height: 156px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 46px;
+                .sp1{
+                    padding-top: 78px;
+                    width: 409px;
+                    height: 45px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .sp1_t1{
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 46px;
+                        background: #5096FF;
+                        border-radius: 44px;      
+                        color: #FFFFFF;
+                        border: none;      
+                        width: 311px;
+                        height: 45px;                                    
+                    }
+                    .sp1_t2{
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 46px;
+                        background: #FFB359;
+                        border-radius: 44px;   
+                        color: #FFFFFF;
+                        border: none;    
+                        width: 89px;
+                        height: 45px;                                          
+                    }
+                }              
+                .sp2{
+                    padding-top: 11px;
+                    width: 438px;
+                    height: 45px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .sp2_t1{
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 46px;
+                        background: #FF6F50;
+                        border-radius: 44px;      
+                        color: #FFFFFF;
+                        border: none;       
+                        width: 151px;
+                        height: 45px;                                    
+                    }
+                    .sp2_t2{
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 46px;
+                        background: #4BD071;
+                        border-radius: 44px;    
+                        color: #FFFFFF;
+                        border: none;    
+                        width: 277px;
+                        height: 45px;                                         
+                    }
+                }              
+                .sp3{
+                    padding-top: 11px;
+                    width: 467px;
+                    height: 45px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .sp3_t1{
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 46px;
+                        background: #50C0FF;
+                        border-radius: 44px;       
+                        color: #FFFFFF;
+                        border: none;   
+                        width: 258px;
+                        height: 45px;                                       
+                    }
+                    .sp3_t2{
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 46px;
+                        background: #4B77B9;
+                        border-radius: 44px;    
+                        color: #FFFFFF;
+                        border: none;     
+                        width: 95px;
+                        height: 45px;                                        
+                    }
+                    .sp3_t3{
+                        font-family: 'Gilroy';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 17px;
+                        line-height: 46px;
+                        background: #AF93FF;
+                        border-radius: 44px;     
+                        color: #FFFFFF;
+                        border: none;    
+                        width: 94px;
+                        height: 45px;                                        
+                    }
+                }              
+           } 
+           .contTwo__block_title{
+                margin-top: 126px;
+                width: 386px;
+                height: 50px;
+                font-family: 'Gilroy SemiBold';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 25px;
+                color: #22253B;
+           }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .contTwo__wrapper {
+        flex-direction: column;
+        background-color: #FFFFFF;
+    }
+
+    .section-two {
+        margin-bottom: 150px;
+    }
+}
